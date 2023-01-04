@@ -5,7 +5,6 @@ using var db = new ReproContext();
 
 await db.Database.EnsureCreatedAsync();
 
-// Note: This sample requires the database to be created before running.
 Console.WriteLine($"Database path: {db.Database.GetConnectionString()}.");
 
 // Create
